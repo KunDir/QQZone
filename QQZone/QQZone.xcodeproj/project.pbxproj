@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC57DB631A820A3100C07594 /* FKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC57DB621A820A3100C07594 /* FKLoginViewController.m */; };
+		BC57DB661A820A6800C07594 /* FKAllStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC57DB651A820A6800C07594 /* FKAllStatusViewController.m */; };
+		BC57DB6A1A820F6000C07594 /* FKSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BC57DB691A820F6000C07594 /* FKSegmentControl.m */; };
+		BC57DB6D1A82158E00C07594 /* FKSegmentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BC57DB6C1A82158E00C07594 /* FKSegmentButton.m */; };
+		BC57DB701A82216300C07594 /* FKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC57DB6F1A82216300C07594 /* FKNavigationController.m */; };
+		BC57DB731A822F8300C07594 /* FKComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC57DB721A822F8300C07594 /* FKComposeViewController.m */; };
+		BC6A06471A7E22CB006C69C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6A06451A7E22CB006C69C7 /* Main.storyboard */; };
+		BC6A064C1A7E22CB006C69C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6A064A1A7E22CB006C69C7 /* LaunchScreen.xib */; };
+		BC6A06581A7E22CB006C69C7 /* QQZoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6A06571A7E22CB006C69C7 /* QQZoneTests.m */; };
+		BC6A06681A7E243F006C69C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6A06661A7E243F006C69C7 /* AppDelegate.m */; };
+		BC6A06691A7E243F006C69C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6A06671A7E243F006C69C7 /* main.m */; };
+		BC6A066B1A7E2B56006C69C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC6A066A1A7E2B56006C69C7 /* Images.xcassets */; };
+		BC6A06721A7E3A69006C69C7 /* UIImage+FK.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6A06711A7E3A69006C69C7 /* UIImage+FK.m */; };
+		BC6A067B1A7E6F7C006C69C7 /* FKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6A06791A7E6F7C006C69C7 /* FKMainViewController.m */; };
+		BC6A067E1A7E7045006C69C7 /* FKDock.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6A067D1A7E7045006C69C7 /* FKDock.m */; };
+		BC6A06831A7E7AE1006C69C7 /* UIView+FK.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6A06821A7E7AE1006C69C7 /* UIView+FK.m */; };
+		BC9BC29F1A7F17BB004250E9 /* FKIconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9BC29E1A7F17BB004250E9 /* FKIconButton.m */; };
+		BC9BC2A21A7F186C004250E9 /* FKTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9BC2A11A7F186C004250E9 /* FKTabBar.m */; };
+		BC9BC2A51A7F18A0004250E9 /* FKBottomMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9BC2A41A7F18A0004250E9 /* FKBottomMenu.m */; };
+		BCD48A3E1A7FC1920025D951 /* FKTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD48A3D1A7FC1920025D951 /* FKTabBarButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC6A06521A7E22CB006C69C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC6A06301A7E22CB006C69C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC6A06371A7E22CB006C69C7;
+			remoteInfo = QQZone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC57DB611A820A3100C07594 /* FKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKLoginViewController.h; sourceTree = "<group>"; };
+		BC57DB621A820A3100C07594 /* FKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKLoginViewController.m; sourceTree = "<group>"; };
+		BC57DB641A820A6800C07594 /* FKAllStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKAllStatusViewController.h; sourceTree = "<group>"; };
+		BC57DB651A820A6800C07594 /* FKAllStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKAllStatusViewController.m; sourceTree = "<group>"; };
+		BC57DB681A820F6000C07594 /* FKSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSegmentControl.h; sourceTree = "<group>"; };
+		BC57DB691A820F6000C07594 /* FKSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSegmentControl.m; sourceTree = "<group>"; };
+		BC57DB6B1A82158E00C07594 /* FKSegmentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSegmentButton.h; sourceTree = "<group>"; };
+		BC57DB6C1A82158E00C07594 /* FKSegmentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSegmentButton.m; sourceTree = "<group>"; };
+		BC57DB6E1A82216300C07594 /* FKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKNavigationController.h; sourceTree = "<group>"; };
+		BC57DB6F1A82216300C07594 /* FKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKNavigationController.m; sourceTree = "<group>"; };
+		BC57DB711A822F8300C07594 /* FKComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKComposeViewController.h; sourceTree = "<group>"; };
+		BC57DB721A822F8300C07594 /* FKComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKComposeViewController.m; sourceTree = "<group>"; };
+		BC6A06381A7E22CB006C69C7 /* QQZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6A063C1A7E22CB006C69C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6A06461A7E22CB006C69C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC6A064B1A7E22CB006C69C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BC6A06511A7E22CB006C69C7 /* QQZoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQZoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6A06561A7E22CB006C69C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6A06571A7E22CB006C69C7 /* QQZoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQZoneTests.m; sourceTree = "<group>"; };
+		BC6A06651A7E243F006C69C7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC6A06661A7E243F006C69C7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC6A06671A7E243F006C69C7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC6A066A1A7E2B56006C69C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Classes/Other/Images.xcassets; sourceTree = "<group>"; };
+		BC6A06701A7E3A69006C69C7 /* UIImage+FK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FK.h"; sourceTree = "<group>"; };
+		BC6A06711A7E3A69006C69C7 /* UIImage+FK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FK.m"; sourceTree = "<group>"; };
+		BC6A06781A7E6F7C006C69C7 /* FKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKMainViewController.h; sourceTree = "<group>"; };
+		BC6A06791A7E6F7C006C69C7 /* FKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKMainViewController.m; sourceTree = "<group>"; };
+		BC6A067C1A7E7045006C69C7 /* FKDock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKDock.h; sourceTree = "<group>"; };
+		BC6A067D1A7E7045006C69C7 /* FKDock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKDock.m; sourceTree = "<group>"; };
+		BC6A067F1A7E70FD006C69C7 /* QQZone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QQZone-Prefix.pch"; sourceTree = "<group>"; };
+		BC6A06801A7E758B006C69C7 /* FKCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKCommon.h; sourceTree = "<group>"; };
+		BC6A06811A7E7AE1006C69C7 /* UIView+FK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FK.h"; sourceTree = "<group>"; };
+		BC6A06821A7E7AE1006C69C7 /* UIView+FK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FK.m"; sourceTree = "<group>"; };
+		BC9BC29D1A7F17BB004250E9 /* FKIconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKIconButton.h; sourceTree = "<group>"; };
+		BC9BC29E1A7F17BB004250E9 /* FKIconButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKIconButton.m; sourceTree = "<group>"; };
+		BC9BC2A01A7F186C004250E9 /* FKTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKTabBar.h; path = ../FKTabBar.h; sourceTree = "<group>"; };
+		BC9BC2A11A7F186C004250E9 /* FKTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKTabBar.m; path = ../FKTabBar.m; sourceTree = "<group>"; };
+		BC9BC2A31A7F18A0004250E9 /* FKBottomMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKBottomMenu.h; sourceTree = "<group>"; };
+		BC9BC2A41A7F18A0004250E9 /* FKBottomMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKBottomMenu.m; sourceTree = "<group>"; };
+		BCD48A3C1A7FC1920025D951 /* FKTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKTabBarButton.h; sourceTree = "<group>"; };
+		BCD48A3D1A7FC1920025D951 /* FKTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKTabBarButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC6A06351A7E22CB006C69C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6A064E1A7E22CB006C69C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC57DB5D1A820A3100C07594 /* AllStatus */ = {
+			isa = PBXGroup;
+			children = (
+				BC57DB671A820F1400C07594 /* View */,
+				BC57DB5E1A820A3100C07594 /* Controller */,
+			);
+			path = AllStatus;
+			sourceTree = "<group>";
+		};
+		BC57DB5E1A820A3100C07594 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC57DB641A820A6800C07594 /* FKAllStatusViewController.h */,
+				BC57DB651A820A6800C07594 /* FKAllStatusViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC57DB5F1A820A3100C07594 /* Longin */ = {
+			isa = PBXGroup;
+			children = (
+				BC57DB601A820A3100C07594 /* Controller */,
+			);
+			path = Longin;
+			sourceTree = "<group>";
+		};
+		BC57DB601A820A3100C07594 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC57DB611A820A3100C07594 /* FKLoginViewController.h */,
+				BC57DB621A820A3100C07594 /* FKLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC57DB671A820F1400C07594 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC57DB681A820F6000C07594 /* FKSegmentControl.h */,
+				BC57DB691A820F6000C07594 /* FKSegmentControl.m */,
+				BC57DB6B1A82158E00C07594 /* FKSegmentButton.h */,
+				BC57DB6C1A82158E00C07594 /* FKSegmentButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC6A062F1A7E22CB006C69C7 = {
+			isa = PBXGroup;
+			children = (
+				BC6A063A1A7E22CB006C69C7 /* QQZone */,
+				BC6A06541A7E22CB006C69C7 /* QQZoneTests */,
+				BC6A06391A7E22CB006C69C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC6A06391A7E22CB006C69C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A06381A7E22CB006C69C7 /* QQZone.app */,
+				BC6A06511A7E22CB006C69C7 /* QQZoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC6A063A1A7E22CB006C69C7 /* QQZone */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A06611A7E243F006C69C7 /* Classes */,
+				BC6A063B1A7E22CB006C69C7 /* Supporting Files */,
+			);
+			path = QQZone;
+			sourceTree = "<group>";
+		};
+		BC6A063B1A7E22CB006C69C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A066A1A7E2B56006C69C7 /* Images.xcassets */,
+				BC6A06451A7E22CB006C69C7 /* Main.storyboard */,
+				BC6A064A1A7E22CB006C69C7 /* LaunchScreen.xib */,
+				BC6A063C1A7E22CB006C69C7 /* Info.plist */,
+				BC6A067F1A7E70FD006C69C7 /* QQZone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC6A06541A7E22CB006C69C7 /* QQZoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A06571A7E22CB006C69C7 /* QQZoneTests.m */,
+				BC6A06551A7E22CB006C69C7 /* Supporting Files */,
+			);
+			path = QQZoneTests;
+			sourceTree = "<group>";
+		};
+		BC6A06551A7E22CB006C69C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A06561A7E22CB006C69C7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC6A06611A7E243F006C69C7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC57DB5D1A820A3100C07594 /* AllStatus */,
+				BC57DB5F1A820A3100C07594 /* Longin */,
+				BC6A06761A7E6F7C006C69C7 /* Main */,
+				BC6A06641A7E243F006C69C7 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC6A06641A7E243F006C69C7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A066F1A7E3A1B006C69C7 /* Category */,
+				BC6A06651A7E243F006C69C7 /* AppDelegate.h */,
+				BC6A06661A7E243F006C69C7 /* AppDelegate.m */,
+				BC6A06671A7E243F006C69C7 /* main.m */,
+				BC6A06801A7E758B006C69C7 /* FKCommon.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		BC6A066F1A7E3A1B006C69C7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A06701A7E3A69006C69C7 /* UIImage+FK.h */,
+				BC6A06711A7E3A69006C69C7 /* UIImage+FK.m */,
+				BC6A06811A7E7AE1006C69C7 /* UIView+FK.h */,
+				BC6A06821A7E7AE1006C69C7 /* UIView+FK.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BC6A06761A7E6F7C006C69C7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A06771A7E6F7C006C69C7 /* Controller */,
+				BC6A067A1A7E6F7C006C69C7 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BC6A06771A7E6F7C006C69C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A06781A7E6F7C006C69C7 /* FKMainViewController.h */,
+				BC6A06791A7E6F7C006C69C7 /* FKMainViewController.m */,
+				BC57DB6E1A82216300C07594 /* FKNavigationController.h */,
+				BC57DB6F1A82216300C07594 /* FKNavigationController.m */,
+				BC57DB711A822F8300C07594 /* FKComposeViewController.h */,
+				BC57DB721A822F8300C07594 /* FKComposeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC6A067A1A7E6F7C006C69C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCD48A3B1A7FC13C0025D951 /* TabBar */,
+				BC6A067C1A7E7045006C69C7 /* FKDock.h */,
+				BC6A067D1A7E7045006C69C7 /* FKDock.m */,
+				BC9BC29D1A7F17BB004250E9 /* FKIconButton.h */,
+				BC9BC29E1A7F17BB004250E9 /* FKIconButton.m */,
+				BC9BC2A31A7F18A0004250E9 /* FKBottomMenu.h */,
+				BC9BC2A41A7F18A0004250E9 /* FKBottomMenu.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCD48A3B1A7FC13C0025D951 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				BC9BC2A01A7F186C004250E9 /* FKTabBar.h */,
+				BC9BC2A11A7F186C004250E9 /* FKTabBar.m */,
+				BCD48A3C1A7FC1920025D951 /* FKTabBarButton.h */,
+				BCD48A3D1A7FC1920025D951 /* FKTabBarButton.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC6A06371A7E22CB006C69C7 /* QQZone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC6A065B1A7E22CB006C69C7 /* Build configuration list for PBXNativeTarget "QQZone" */;
+			buildPhases = (
+				BC6A06341A7E22CB006C69C7 /* Sources */,
+				BC6A06351A7E22CB006C69C7 /* Frameworks */,
+				BC6A06361A7E22CB006C69C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQZone;
+			productName = QQZone;
+			productReference = BC6A06381A7E22CB006C69C7 /* QQZone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC6A06501A7E22CB006C69C7 /* QQZoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC6A065E1A7E22CB006C69C7 /* Build configuration list for PBXNativeTarget "QQZoneTests" */;
+			buildPhases = (
+				BC6A064D1A7E22CB006C69C7 /* Sources */,
+				BC6A064E1A7E22CB006C69C7 /* Frameworks */,
+				BC6A064F1A7E22CB006C69C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC6A06531A7E22CB006C69C7 /* PBXTargetDependency */,
+			);
+			name = QQZoneTests;
+			productName = QQZoneTests;
+			productReference = BC6A06511A7E22CB006C69C7 /* QQZoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC6A06301A7E22CB006C69C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FK;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = kun;
+				TargetAttributes = {
+					BC6A06371A7E22CB006C69C7 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BC6A06501A7E22CB006C69C7 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BC6A06371A7E22CB006C69C7;
+					};
+				};
+			};
+			buildConfigurationList = BC6A06331A7E22CB006C69C7 /* Build configuration list for PBXProject "QQZone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC6A062F1A7E22CB006C69C7;
+			productRefGroup = BC6A06391A7E22CB006C69C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC6A06371A7E22CB006C69C7 /* QQZone */,
+				BC6A06501A7E22CB006C69C7 /* QQZoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC6A06361A7E22CB006C69C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6A066B1A7E2B56006C69C7 /* Images.xcassets in Resources */,
+				BC6A06471A7E22CB006C69C7 /* Main.storyboard in Resources */,
+				BC6A064C1A7E22CB006C69C7 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6A064F1A7E22CB006C69C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC6A06341A7E22CB006C69C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC57DB6D1A82158E00C07594 /* FKSegmentButton.m in Sources */,
+				BC6A06721A7E3A69006C69C7 /* UIImage+FK.m in Sources */,
+				BC6A06691A7E243F006C69C7 /* main.m in Sources */,
+				BC57DB701A82216300C07594 /* FKNavigationController.m in Sources */,
+				BC9BC2A51A7F18A0004250E9 /* FKBottomMenu.m in Sources */,
+				BC57DB6A1A820F6000C07594 /* FKSegmentControl.m in Sources */,
+				BC6A06831A7E7AE1006C69C7 /* UIView+FK.m in Sources */,
+				BC6A067E1A7E7045006C69C7 /* FKDock.m in Sources */,
+				BC6A06681A7E243F006C69C7 /* AppDelegate.m in Sources */,
+				BC6A067B1A7E6F7C006C69C7 /* FKMainViewController.m in Sources */,
+				BC57DB731A822F8300C07594 /* FKComposeViewController.m in Sources */,
+				BC57DB661A820A6800C07594 /* FKAllStatusViewController.m in Sources */,
+				BC57DB631A820A3100C07594 /* FKLoginViewController.m in Sources */,
+				BC9BC29F1A7F17BB004250E9 /* FKIconButton.m in Sources */,
+				BC9BC2A21A7F186C004250E9 /* FKTabBar.m in Sources */,
+				BCD48A3E1A7FC1920025D951 /* FKTabBarButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6A064D1A7E22CB006C69C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6A06581A7E22CB006C69C7 /* QQZoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC6A06531A7E22CB006C69C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC6A06371A7E22CB006C69C7 /* QQZone */;
+			targetProxy = BC6A06521A7E22CB006C69C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC6A06451A7E22CB006C69C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC6A06461A7E22CB006C69C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC6A064A1A7E22CB006C69C7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC6A064B1A7E22CB006C69C7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC6A06591A7E22CB006C69C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BC6A065A1A7E22CB006C69C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC6A065C1A7E22CB006C69C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = QQZone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC6A065D1A7E22CB006C69C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = QQZone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC6A065F1A7E22CB006C69C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QQZoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQZone.app/QQZone";
+			};
+			name = Debug;
+		};
+		BC6A06601A7E22CB006C69C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QQZoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQZone.app/QQZone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC6A06331A7E22CB006C69C7 /* Build configuration list for PBXProject "QQZone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6A06591A7E22CB006C69C7 /* Debug */,
+				BC6A065A1A7E22CB006C69C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC6A065B1A7E22CB006C69C7 /* Build configuration list for PBXNativeTarget "QQZone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6A065C1A7E22CB006C69C7 /* Debug */,
+				BC6A065D1A7E22CB006C69C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC6A065E1A7E22CB006C69C7 /* Build configuration list for PBXNativeTarget "QQZoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6A065F1A7E22CB006C69C7 /* Debug */,
+				BC6A06601A7E22CB006C69C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC6A06301A7E22CB006C69C7 /* Project object */;
+}
